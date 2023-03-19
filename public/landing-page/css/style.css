@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-padding-top: 50px;
+}
+
+.mar-top {
+  margin-top: 20px;
+}
+
+.navigation .container-fluid .container .navbar .navbar-brand {
+  color: #46528a;
+  font-weight: 600;
+  font-size: 20px;
+}
+.navigation .container-fluid .container .navbar .navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  font-size: 18px;
+  color: #0d1c37;
+}
+.navigation .container-fluid .container .navbar .btn {
+  background-color: #312ecb;
+  color: white;
+  width: 143px;
+  height: 36px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.header .container-fluid .container .heading {
+  display: flex;
+  align-items: center;
+}
+.header .container-fluid .container .heading .left-header h1 {
+  font-weight: 700;
+  font-size: 37px;
+  color: #0d1c37;
+}
+.header .container-fluid .container .heading .left-header p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #6b717c;
+  line-height: 30px;
+}
+.header .container-fluid .container .heading .left-header .btn {
+  background-color: #312ecb;
+  color: white;
+  width: 143px;
+  height: 36px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.header .container-fluid .container .heading .right-header img {
+  width: 600px;
+  height: 600px;
+}
+
+.main .main-container {
+  background-color: #0d1c37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-container .main-core {
+  padding: 100px 300px;
+  text-align: center;
+  color: #d9d9d9;
+  font-weight: 700;
+}
+.main .main-container .main-core p {
+  font-size: 20px;
+  line-height: 60px;
+}
+.main .main-container .main-core p span {
+  font-size: 70px;
+}
+
+.our-services {
+  margin-top: 150px;
+}
+.our-services .container-fluid .container .our-services-core {
+  display: flex;
+}
+.our-services .container-fluid .container .our-services-core h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #0d1c37;
+  text-align: center;
+}
+.our-services .container-fluid .container .our-services-core .word {
+  margin: auto;
+  background-color: #0d1c37;
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 433px;
+  height: 343px;
+  box-shadow: 7px 8px 22px rgba(0, 0, 0, 0.25);
+}
+.our-services .container-fluid .container .our-services-core .word h6 {
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.consult-now .container-fluid .container .consult-now-core {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.consult-now .container-fluid .container .consult-now-core h1 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #0d1c37;
+}
+.consult-now .container-fluid .container .consult-now-core .btn {
+  background-color: #312ecb;
+  color: white;
+  width: 321px;
+  height: 36px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.contact-us .container-fluid {
+  background-color: #0d1c37;
+  color: white;
+  padding: 40px;
+}
+.contact-us .container-fluid .contact-us-core .row a {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.footer .container-fluid .container .footer-core {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .container-fluid .container .footer-core p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6b717c;
+}
+
+@media screen and (max-width: 576px) {
+  .header .container-fluid .container .heading .left-header h1 {
+    font-weight: 700;
+    font-size: 17px;
+    color: #0d1c37;
+  }
+  .header .container-fluid .container .heading .left-header p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #6b717c;
+    line-height: 30px;
+  }
+  .header .container-fluid .container .heading .left-header .btn {
+    background-color: #312ecb;
+    color: white;
+    width: 70px;
+  }
+  .header .container-fluid .container .heading .right-header img {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .main .main-container .main-core {
+    padding: 10px;
+  }
+  .main .main-container .main-core p {
+    font-size: 10px;
+  }
+  .main .main-container .main-core p span {
+    font-size: 35px;
+  }
+  .our-services {
+    margin-top: 100px;
+  }
+  .our-services .container-fluid .container .our-services-core h1 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .our-services .container-fluid .container .our-services-core .word {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  .our-services .container-fluid .container .our-services-core .word h6 {
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .our-services .container-fluid .container .our-services-core .word ul li {
+    font-size: 9px;
+  }
+  .our-services .container-fluid .container .our-services-core p {
+    font-size: 10px;
+  }
+  .consult-now {
+    margin-top: 40px;
+  }
+  .consult-now .container-fluid .container .consult-now-core .left-consult-now h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .consult-now .container-fluid .container .consult-now-core .left-consult-now .btn {
+    background-color: #312ecb;
+    color: white;
+    width: 150px;
+    height: 36px;
+  }
+  .consult-now .container-fluid .container .consult-now-core .right-consult-now img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .contact-us .container-fluid {
+    padding: 20px;
+  }
+  .contact-us .container-fluid .contact-us-core .row a {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .contact-us .container-fluid .contact-us-core .row h5 {
+    font-size: 15px;
+  }
+  .contact-us .container-fluid .contact-us-core .row p {
+    font-size: 10px;
+  }
+  .footer .container-fluid .container .footer-core p {
+    font-size: 70%;
+  }
+}
